@@ -38,7 +38,7 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 <URL_DO_SEU_REPOSITORIO> 
 
 Acesse a pasta do projeto:
-cd desafio-frontend/desafioale 
+cd desafio-frontend 
 
 Instale as dependências:
 npm install 
