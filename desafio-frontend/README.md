@@ -35,7 +35,7 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 1. Clone o repositório:
    ```bash
    git clone
-<URL_DO_SEU_REPOSITORIO> 
+https://github.com/AleSuzano/Desafio-Suzano-Full/tree/main/desafio-frontend 
 
 Acesse a pasta do projeto:
 cd desafio-frontend 
