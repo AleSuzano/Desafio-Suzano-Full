@@ -16,11 +16,11 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 
 ## Funcionalidades
 
-1. **Listagem de Produtos:** Exibição com nome, categoria, preço, descrição e imagem [3].
-2. **Cadastro em Tempo Real:** Formulário para inserção de novos produtos [1, 3].
-3. **Filtros Dinâmicos:** Busca por nome e filtragem por faixa de preço [3].
-4. **Ordenação:** Agrupamento por Nome (A-Z / Z-A) e Preço (Crescente / Decrescente) [3].
-5. **Design Responsivo:** Adaptado para dispositivos móveis e desktop [1].
+1. **Listagem de Produtos:** Exibição com nome, categoria, preço, descrição e imagem.
+2. **Cadastro em Tempo Real:** Formulário para inserção de novos produtos.
+3. **Filtros Dinâmicos:** Busca por nome e filtragem por faixa de preço.
+4. **Ordenação:** Agrupamento por Nome (A-Z / Z-A) e Preço (Crescente / Decrescente).
+5. **Design Responsivo:** Adaptado para dispositivos móveis e desktop.
 
 ---
 
@@ -35,10 +35,10 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 1. Clone o repositório:
    ```bash
    git clone
-<URL_DO_SEU_REPOSITORIO> 
+https://github.com/AleSuzano/Desafio-Suzano-Full/tree/main/desafio-frontend
 
 Acesse a pasta do projeto:
-cd desafio-frontend/desafioale 
+cd desafio-frontend 
 
 Instale as dependências:
 npm install 
@@ -50,7 +50,7 @@ npm run dev
 Abra http://localhost:3000 no seu navegador.
 
 Executando os Testes Automatizados
-O projeto conta com testes de snapshot configurados com Jest e React Testing Library[1].
+O projeto conta com testes de snapshot configurados com Jest e React Testing Library.
 Para rodar a suíte de testes:
 npm test
 
