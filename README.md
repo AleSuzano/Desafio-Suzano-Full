@@ -10,6 +10,7 @@ Este repositório contém a solução completa para o teste técnico, reunindo u
 desafio-fullstack/
 ├── desafio-frontend/   # Aplicação Frontend (Next.js, React, Tailwind CSS)
 ├── desafio-backend/    # API RESTful Backend (NestJS, TypeORM, SQLite)
+├── docker-compose.yml  # Orquestação do ambiente completo via Docker
 └── README.md           # Visão geral e instruções do projeto
 
 
@@ -26,14 +27,28 @@ Filtros de busca (por nome e faixa de preço) e ordenação dos resultados.
 Design totalmente responsivo e tratamento de estado global.
 
 Backend ( /desafio-backend )
-Framework: NestJS (Node.js) em TypeScript.
+Framework: NestJS (Node.js) com TypeScript.
 Banco de Dados & ORM: TypeORM integrado com SQLite (better-sqlite3).
 Arquitetura: Separação clara em camadas (Controllers, Services, Entities e DTOs) aplicando os princípios SOLID.
 Segurança & Auditoria: LoggerMiddleware para rastreamento de requisições HTTP e validação de DTOs com class-validator.
 Regra de Negócio de Pedidos: Validação de disponibilidade de estoque e baixa automática ao concluir um pedido.
 Documentação: Swagger interativo integrado.
+
 ________________________________________
-Como Executar o Projeto Localmente
+Execução Simplificada com Docker Compose
+Para subir o Frontend e o Backend simultaneamente em contêineres isolados com apenas um comando:
+Pré-requisito:
+[Docker Desktop] instalado e em execução.
+Comando:
+Na raiz do repositório (desafio-fullstack), execute:
+docker compose up --build
+
+
+💻 Frontend: http://localhost:3000
+⚙️ Backend: http://localhost:3002
+📚 Documentação Swagger: http://localhost:3002/api/docs
+________________________________________
+Como Executar o Projeto Localmente sem Docker 
 Pré-requisitos
 Node.js: v18 ou superior
 npm: Gerenciador de pacotes
@@ -85,4 +100,4 @@ ________________________________________
 Critérios de Avaliação:
 Organização e Qualidade do Código: Código limpo (DRY/SOLID) com separação em camadas no backend e componentes no frontend.
 Validação e Integridade de Dados: Checagem rigorosa de estoque na criação de pedidos e DTOs tipados.
-Documentação: Instruções completas de execução e API Swagger gerada automaticamente.
+Documentação: Instruções completas de execução, API Swagger gerada automaticamente e orquestração do ambiente com Docker Compose.
