@@ -44,9 +44,9 @@ Na raiz do repositório (desafio-fullstack), execute:
 docker compose up --build
 
 
-💻 Frontend: http://localhost:3000
-⚙️ Backend: http://localhost:3002
-📚 Documentação Swagger: http://localhost:3002/api/docs
+- Frontend: http://localhost:3000
+- Backend: http://localhost:3002
+- Documentação Swagger: http://localhost:3002/api/docs
 ________________________________________
 Como Executar o Projeto Localmente sem Docker 
 Pré-requisitos
@@ -84,7 +84,8 @@ npm run dev
 
 O frontend estará disponível em: http://localhost:3000.
 ________________________________________
-🧪 Execução dos Testes Automatizados
+Execução dos Testes Automatizados
+
 Ambos os projetos contêm suítes de testes automatizados para garantir a qualidade do código e a robustez das funcionalidades.
 Testes do Backend:
 cd desafio-backend
