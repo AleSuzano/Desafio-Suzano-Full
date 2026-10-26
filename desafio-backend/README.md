@@ -33,7 +33,7 @@ API RESTful desenvolvida em **NestJS** como solução para o desafio técnico de
 ### **Passos**
 1. **Clonar o repositório:**
    ```bash
-   git clone [suspicious link removed]
+   git clone https://github.com/AleSuzano/Desafio-Suzano-Full/tree/main/desafio-backend
    cd Desafio-Suzano-Backend
 
 
