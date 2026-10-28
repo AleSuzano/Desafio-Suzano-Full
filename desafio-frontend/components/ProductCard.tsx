@@ -10,7 +10,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     return ( 
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-200 flex flex-col justify-between"> 
         <div> 
-            <img src={product.imagem || '[suspicious link removed]'} alt={product.nome} className="w-full h-48 object-cover" 
+            <img src={product.imagem || '[suspicious link removed]'} alt={product.nome} onError={(e) => {(e.target as HTMLImageElement).src ='[suspicious link removed]';}} className="w-full h-48 object-cover" 
             /> 
             <div className="p-4"> 
                 <span className="text-xs font-semibold text-blue-600 uppercase tracking-wider bg-blue-50 px-2 py-1 rounded"> 

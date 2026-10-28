@@ -211,7 +211,7 @@ export const ProductForm: React.FC = () => {
 
               type="url"
 
-              placeholder="[suspicious link removed]"
+              placeholder="Cole o link da imagem do produto aqui."
 
               value={imagem}
 
