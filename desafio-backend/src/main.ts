@@ -24,8 +24,8 @@ async function bootstrap() {
       .setTitle('API de Gestão de Produtos e Pedidos') 
       .setDescription('API RESTful desenvolvida com NestJS e TypeORM') 
       .setVersion('1.0') 
-      .addTag('products') 
-      .addTag('orders') 
+      // .addTag('products') 
+      // .addTag('orders') 
       .build(); 
       const document = 
       SwaggerModule.createDocument(app, config); 
